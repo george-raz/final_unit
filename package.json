@@ -1,0 +1,27 @@
+{
+  "name": "unit",
+  "version": "1.0.0",
+  "description": "Unit Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config .mocharc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/george-raz/final_unit.git"
+  },
+  "author": "George R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/george-raz/final_unit/issues"
+  },
+  "homepage": "https://github.com/george-raz/final_unit#readme",
+  "dependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^20.5.1",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "ts-node": "^10.9.1"
+  }
+}
